@@ -1,0 +1,13 @@
+# Keep Unity assets and shaders out of GitHub's language stats
+*.shader linguist-vendored
+*.cginc linguist-vendored
+*.hlsl linguist-vendored
+*.compute linguist-vendored
+*.shadergraph linguist-vendored
+*.meta linguist-generated
+*.unity linguist-generated
+*.prefab linguist-generated
+*.asset linguist-generated
+*.mat linguist-generated
+Packages/** linguist-vendored
+ProjectSettings/** linguist-vendored
